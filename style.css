@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 104px;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    gap: 57px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 55px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.main-img2 {
+    position: absolute;
+    left: 0px;
+    top: 329px;
+}
+
+main section {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    padding: 38px 104px;
+}
+
+main h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 309.34px;
+    font-weight: 700;
+    z-index: 1;
+    text-align: center;
+    height: 35vh;
+}
+
+main h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 284.81px;
+    font-weight: 700;
+    z-index: 2;
+    text-align: center;
+}
+
+.description p {
+    font-size: 24px;
+    font-weight: 500;
+    width: 60%;
+}
+
+main button {
+    position: absolute;
+    right: 34%;
+    bottom: -40%;
+}
