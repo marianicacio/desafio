@@ -79,7 +79,7 @@ main section {
 
 main h1 {
     font-family: "Playfair Display", serif;
-    font-size: 309.34px;
+    font-size: 18rem;
     font-weight: 700;
     z-index: 1;
     text-align: center;
@@ -88,7 +88,7 @@ main h1 {
 
 main h2 {
     font-family: "Playfair Display", serif;
-    font-size: 284.81px;
+    font-size: 17rem;
     font-weight: 700;
     z-index: 2;
     text-align: center;
@@ -104,4 +104,9 @@ main button {
     position: absolute;
     right: 34%;
     bottom: -40%;
+    border: none;
+    font-size: 2.3rem;
+    padding: 13px 19px;
+    cursor: pointer;
+    font-weight: 600;
 }
