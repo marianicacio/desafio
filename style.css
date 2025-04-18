@@ -110,3 +110,33 @@ main button {
     cursor: pointer;
     font-weight: 600;
 }
+
+.teste2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 35%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 71px;
+}
+
+.teste {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 74px;
+    justify-content: center;
+}
+
+.teste article {
+    display: grid;
+    row-gap: 50px;
+}
