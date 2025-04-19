@@ -174,4 +174,45 @@ main button {
 .about-container article p {
     font-size: 2.5rem;
     width: 633px;
-} 
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 342px;
+    gap: 103px;
+}
+
+.testimonials-container article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 3%;
+}
+
+.testimonials-container  article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 430px;
+    gap: 29px;
+}
+
+.cards {
+    display: flex;
+    gap: 3%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+}
