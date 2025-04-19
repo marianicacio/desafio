@@ -111,7 +111,7 @@ main button {
     font-weight: 600;
 }
 
-.teste2 {
+.portfolio-container {
     display: flex;
     width: 100%;
     align-items: center;
@@ -129,14 +129,49 @@ main button {
     gap: 71px;
 }
 
-.teste {
+.portfolio h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 81.31px;
+    font-weight: 400;
+}
+
+.port-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 74px;
     justify-content: center;
 }
 
-.teste article {
+.port-wrap article {
     display: grid;
     row-gap: 50px;
 }
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 382px;
+    gap: 70px;
+}
+
+.about-container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 81.31px;
+    font-weight: 400;
+}
+
+.about-container article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 71px;
+}
+
+.about-container article p {
+    font-size: 40px;
+    width: 633px;
+} 
