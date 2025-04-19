@@ -168,7 +168,7 @@ main button {
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 71px;
+    gap: 5%;
 }
 
 .about-container article p {
