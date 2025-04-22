@@ -211,13 +211,16 @@ main button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 430px;
+    padding-left: 10px;
     gap: 29px;
 }
 
 .cards {
     display: flex;
-    gap: 3%;
+    width: 430px;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
 }
 
 .cards h1 {
@@ -226,16 +229,52 @@ main button {
     font-weight: 600;
     font-size: 44px;
     line-height: 101.52%;
+    margin: 5px;
     color: #FFFFFF;
+}
+
+.cards p {
+    font-size: 15px;
+    font-weight: 300;
+    width: 290.21px;
+    text-align: start;
 }
 
 .card {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 55px;
     flex-direction: column;
+}
+
+.card button {
+    display: flex;
+    gap: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
 }
 
 .column-card {
     display: flex;
     flex-direction: column;
+    width: 600px;
+}
+
+.column-card h1 {
+}
+
+.column-card button {
+    display: flex;
+    gap: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
 }
