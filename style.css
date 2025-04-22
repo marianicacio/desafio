@@ -186,6 +186,18 @@ main button {
     gap: 103px;
 }
 
+.testimonials-container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 81.31px;
+    font-weight: 400;
+}
+
+.testimonials-container p {
+    font-size: 1.375rem;
+    width: 70%;
+    text-align: center;
+}
+
 .testimonials-container article {
     display: flex;
     align-items: center;
@@ -195,7 +207,7 @@ main button {
     background-color: #181818;
 }
 
-.testimonials-container  article div {
+.testimonials-container article div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,12 +220,22 @@ main button {
     gap: 3%;
 }
 
+.cards h1 {
+    font-family: "Inter", sans-serif;
+    width: 379.37px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 101.52%;
+    color: #FFFFFF;
+}
+
 .card {
     display: flex;
+    gap: 55px;
     flex-direction: column;
 }
 
-.teste {
+.column-card {
     display: flex;
     flex-direction: column;
 }
