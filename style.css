@@ -138,7 +138,7 @@ main button {
 .port-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8%;
+    gap: 4%;
     justify-content: center;
 }
 
