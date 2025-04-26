@@ -291,3 +291,31 @@ main button {
     border: none;
     color: white;
 }
+
+.testimonials-button {
+    width: 221.95px;
+    height: 77.8px;
+    border: solid 1.36px white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 368px;
+}
+
+.contact form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    gap: 58px;
+}
+
