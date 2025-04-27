@@ -313,9 +313,17 @@ main button {
 
 .contact form {
     display: flex;
-    width: 100%;
     flex-direction: column;
+    width: 50%;
     align-items: start;
     gap: 58px;
+}
+
+.contact form input {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
