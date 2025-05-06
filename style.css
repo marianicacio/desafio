@@ -315,13 +315,26 @@ main button {
     display: flex;
     flex-direction: column;
     width: 50%;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     gap: 58px;
 }
 
-.contact form input {
+.contact form p {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.contact form p input {
     display: flex;
     height: 48px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
     align-items: center;
     justify-content: center;
     width: 100%;
