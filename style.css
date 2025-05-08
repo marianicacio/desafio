@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 * {
     padding: 0;
@@ -7,10 +9,11 @@
 }
 
 body {
-    background-color: black;
+    background-color: #382f32;
     display: flex;
     flex-direction: column;
-    font-family: "Inter", sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
     color: white;
 }
 
@@ -19,12 +22,12 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 104px;
+    padding: 40px 64px;
 }
 
-header h1 {
-    font-size: 20px;
-    font-weight: 700;
+header img {
+    width: 200px;
+    height: auto;
 }
 
 nav {
@@ -34,8 +37,9 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    color: #ffeaf2;
+    font-family: "Borel", cursive;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -51,15 +55,18 @@ main {
 }
 
 .main-img {
+    width: 300px;
     position: absolute;
     right: 0px;
     top: 0px;
+    opacity: 70%;
 }
 
 .main-img2 {
+    width: 280px;
     position: absolute;
     left: 0px;
-    top: 329px;
+    top: 365px;
 }
 
 main section {
@@ -78,30 +85,35 @@ main section {
 }
 
 main h1 {
-    font-family: "Playfair Display", serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 18rem;
-    font-weight: 700;
+    font-weight: 400;
     z-index: 1;
     text-align: center;
-    height: 35vh;
+    color: #ffeaf2;
+    height: 40vh;
 }
 
 main h2 {
-    font-family: "Playfair Display", serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 17rem;
-    font-weight: 700;
-    z-index: 2;
+    font-weight: 400;
+    z-index: 0;
+    color: #ffeaf2;
     text-align: center;
 }
 
 .description p {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 300;
     width: 60%;
 }
 
 main button {
     position: absolute;
+    background-color: #fbc5d8;
+    color: #382f32;
+    border-radius: 4px;
     right: 34%;
     bottom: -40%;
     border: none;
@@ -130,7 +142,7 @@ main button {
 }
 
 .portfolio h1 {
-    font-family: "Playfair Display", serif;
+    font-family: "Borel", cursive;
     font-size: 81.31px;
     font-weight: 400;
 }
@@ -168,11 +180,11 @@ main button {
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 5%;
+    gap: 1%;
 }
 
 .about-container article p {
-    font-size: 2.5rem;
+    font-size: 36px;
     width: 633px;
 }
 
@@ -374,11 +386,12 @@ footer {
     margin-top: 410px;
     align-items: center;
     gap: 24.09px;
-    font-size: 1.375rem;
     justify-content: center;
+    margin-bottom: 76px;
 }
 
 footer h1 {
+    font-size: 1.375rem;
     font-weight: 700;
 }
 
