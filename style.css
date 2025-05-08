@@ -311,12 +311,18 @@ main button {
     margin-top: 368px;
 }
 
+.contact h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 81.31px;
+    font-weight: 400;
+}
+
 .contact form {
     display: flex;
     flex-direction: column;
     width: 50%;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 58px;
 }
 
@@ -329,6 +335,10 @@ main button {
     justify-content: center;
 }
 
+.contact form p label {
+    font-size: 2.797rem;
+}
+
 .contact form p input {
     display: flex;
     height: 48px;
@@ -337,6 +347,46 @@ main button {
     border-bottom: 2px solid white;
     align-items: center;
     justify-content: center;
+    font-size: 1.563rem;
     width: 100%;
+}
+
+.contact form p textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 1.563rem;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+.contact form button {
+    width: 26.5%;
+    height: 72.14px;
+    font-size: 2.401rem;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 410px;
+    align-items: center;
+    gap: 24.09px;
+    font-size: 1.375rem;
+    justify-content: center;
+}
+
+footer h1 {
+    font-weight: 700;
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37.81px;
+    font-weight: 300;
 }
 
